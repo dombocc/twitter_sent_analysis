@@ -15,8 +15,15 @@ This code runs after sentiment is assigned and checks each tables counts to make
 #CreateSentimentModel.ipynb 
 This was written to create the model. 
 
+#%.bat
+The whole process is scheduled to run via a .bat file every 30 minutes for ease of use and some automation around the process. 
 
-Next steps if continued through the project would be to link the output to a data visualization suite like Tableau or PowerBi 
-    to visualize the data over time as well as collectively analyzing how people are speaking about these companies/topics
+
+$$$Next steps if continued through the project:
+    I would be to link the output to a data visualization suite like Tableau or PowerBi 
+        to visualize the data over time as well as collectively analyzing how people are speaking about these companies/topics
     
     Another step would be to do some model tuning and possible incorporate some continual learning to have a better trained model.
+    
+    Another idea would be a website that hosts the visualization from Tableau where users could 
+        interact with the data and filter dynamically using dates and topics
